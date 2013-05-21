@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A35EFB15600CD6007DE9B2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A35EFA15600CD6007DE9B2 /* CoreFoundation.framework */; };
+		22A35EFE15600CD6007DE9B2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22A35EFD15600CD6007DE9B2 /* main.c */; };
+		22A35F0015600CD6007DE9B2 /* audioQueueRecorder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22A35EFF15600CD6007DE9B2 /* audioQueueRecorder.1 */; };
+		22A35F0715600CE8007DE9B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A35F0615600CE8007DE9B2 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22A35EF415600CD6007DE9B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				22A35F0015600CD6007DE9B2 /* audioQueueRecorder.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22A35EF615600CD6007DE9B2 /* audioQueueRecorder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = audioQueueRecorder; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A35EFA15600CD6007DE9B2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		22A35EFD15600CD6007DE9B2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22A35EFF15600CD6007DE9B2 /* audioQueueRecorder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = audioQueueRecorder.1; sourceTree = "<group>"; };
+		22A35F0615600CE8007DE9B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A35EF315600CD6007DE9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A35F0715600CE8007DE9B2 /* AudioToolbox.framework in Frameworks */,
+				22A35EFB15600CD6007DE9B2 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A35EEB15600CD5007DE9B2 = {
+			isa = PBXGroup;
+			children = (
+				22A35F0615600CE8007DE9B2 /* AudioToolbox.framework */,
+				22A35EFC15600CD6007DE9B2 /* audioQueueRecorder */,
+				22A35EF915600CD6007DE9B2 /* Frameworks */,
+				22A35EF715600CD6007DE9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A35EF715600CD6007DE9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A35EF615600CD6007DE9B2 /* audioQueueRecorder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A35EF915600CD6007DE9B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A35EFA15600CD6007DE9B2 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22A35EFC15600CD6007DE9B2 /* audioQueueRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				22A35EFD15600CD6007DE9B2 /* main.c */,
+				22A35EFF15600CD6007DE9B2 /* audioQueueRecorder.1 */,
+			);
+			path = audioQueueRecorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A35EF515600CD6007DE9B2 /* audioQueueRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A35F0315600CD6007DE9B2 /* Build configuration list for PBXNativeTarget "audioQueueRecorder" */;
+			buildPhases = (
+				22A35EF215600CD6007DE9B2 /* Sources */,
+				22A35EF315600CD6007DE9B2 /* Frameworks */,
+				22A35EF415600CD6007DE9B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioQueueRecorder;
+			productName = audioQueueRecorder;
+			productReference = 22A35EF615600CD6007DE9B2 /* audioQueueRecorder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A35EED15600CD5007DE9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 22A35EF015600CD5007DE9B2 /* Build configuration list for PBXProject "audioQueueRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22A35EEB15600CD5007DE9B2;
+			productRefGroup = 22A35EF715600CD6007DE9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A35EF515600CD6007DE9B2 /* audioQueueRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A35EF215600CD6007DE9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A35EFE15600CD6007DE9B2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22A35F0115600CD6007DE9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22A35F0215600CD6007DE9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22A35F0415600CD6007DE9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22A35F0515600CD6007DE9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A35EF015600CD5007DE9B2 /* Build configuration list for PBXProject "audioQueueRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A35F0115600CD6007DE9B2 /* Debug */,
+				22A35F0215600CD6007DE9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A35F0315600CD6007DE9B2 /* Build configuration list for PBXNativeTarget "audioQueueRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A35F0415600CD6007DE9B2 /* Debug */,
+				22A35F0515600CD6007DE9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A35EED15600CD5007DE9B2 /* Project object */;
+}
